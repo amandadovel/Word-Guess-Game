@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,51 @@
     <title>Word Guess Game</title>
 
     <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/game.js"></script>
-    
+    <script type="text/javascript" src="assets/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
 </head>
+
 <body>
+
+    <div class="container title">
+        <!--grid-->
+        <div class="row row-1">
+            <div class="col-md-12">
+                <h1>Hangman</h1> <!-- first row is main header/title-->
+            </div>
+        </div>
+
+        <div class="row row-2">
+            <!--second row is hangman photo in first column-->
+            <div class="col">
+                <img src="assets/images/hangman.jpg" alt="Hangman" id="hangmanimage">
+            </div>
+            <div class="col">
+                <!-- second column, row-2, game with javascript-->
+                <p id="directions-text">Press any letter to get started!</p>
+                <p id="userchoice-text"></p>
+                <p id="wins-text"></p>
+                <p id="losses-text"></p>
+                <p id="answer-holder"></p>
+                <p id="guess-countdown"></p>
+                <p id="letters-guessed"></p>
+                <p id="list-index"></p>
+            </div>
+            <div class="w-100"></div>
+        </div>
+
+        <div class="row row-4">
+            <!-- footer -->
+            <div class="col-md-12">
+                <!-- footer is photo -->
+                <img src="assets/images/cerealmascots.jpg" class="img-fluid" alt="Are you Cereal?" id="cerealimage">
+            </div>
+        </div>
    
-        <div class="container">
-                <div class="row row-1">
-                    <div class="col-md-12">Title</div>
-                </div>
-
-                <div class="row row-2">
-                    <div class="col-md-12">Photo</div>
-                </div>
-
-                <div class="row row-3">
-                  <div class="col">Hangman Photo</div>
-                  <div class="col">Javascript</div>
-                  <div class="w-100"></div>
-                 </div>
-
-                 <div class="row row-4">
-                        <div class="col-md-12">footer</div>
-                </div>
-              </div>
+    </div>
 </body>
+
 </html>
