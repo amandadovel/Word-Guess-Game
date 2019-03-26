@@ -1,5 +1,5 @@
 body {
-    background-color: #cbd5de;
+    background-color: #7f8e94;
 
 }
 h1 {
@@ -28,9 +28,16 @@ h1 {
 }
 
 #hangmanimage {
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
+    padding-top: 20px;
 
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #013248;
 }
 
 #cerealimage {
