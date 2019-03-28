@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">    
     <link rel="stylesheet" href="assets/style.css">
-    <script type="text/javascript" src="assets/game.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     
 </head>
@@ -31,13 +30,12 @@
             <div class="col">
                 <!-- second column, row-2, game with javascript-->
                 <p id="directions-text">Press any letter to get started!</p>
-                <p id="userchoice-text"></p>
-                <p id="wins-text">Wins:</p>
-                <p id="losses-text">Losses:</p>
-                <p id="answer-holder">___________________</p>
-                <p id="guess-countdown"># of guesses left</p>
-                <p id="letters-guessed">Letters Guessed </p>
-                <p id="list-index">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                <p id="alert-message"></p>
+                <p>Wins: <span id="wins-text"></span></p>
+                <p>Losses: <span id="losses-text"></span></p>
+                <p id="answer-holder"></p>
+                <p># of guesses left: <span id="guess-countdown"></span></p>
+                <p>Letters Guessed: <span id="letters-guessed"></span></p>
             </div>
             <div class="w-100"></div>
         </div>
@@ -51,6 +49,8 @@
         </div>
    
     </div>
+
+    <script type="text/javascript" src="assets/game.js"></script>
 </body>
 
 </html>
