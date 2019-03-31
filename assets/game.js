@@ -18,7 +18,7 @@ var losses = 0;
 // Variables for game
 var totalGuesses = 10;
 var lettersGuessed = [];
-var wordList = ["tiger", "rabbit", "toucan", "crunch",  "chocula", "booberry"];
+var wordList = ["tony_the_tiger", "trix_rabbit", "toucan_sam", "captain_crunch",  "count_chocula", "boo_berry", "lucky_charms", "buzz_the_honey_bee"];
 var wordToUnderscore = [];
 var lettersInWord = [];
 var numBlanks = 0;
@@ -43,6 +43,8 @@ var selectedWord = wordList[Math.floor(Math.random() * wordList.length)];
 function toUnderscore(){
   
   // trying to figure out how to make spaces ... 
+
+ 
 
   for (var i=0; i<selectedWord.length; i++) {
     wordToUnderscore.push("_ ")
@@ -124,34 +126,45 @@ function evaluateGuess(letter){
 
 //trying to figure out how to make pictures show up when they win.
 function play() {
-  if (selectedWord == "tiger") {
+  if (selectedWord == "tony_the_tiger") {
     var picture = "<img src='assets/images/tonythetiger.jpg'>"
     document.querySelector("#picture").innerHTML = picture;
     toUnderscore();
   } 
-  else if (selectedWord == "rabbit") {
+  else if (selectedWord == "trix_rabbit") {
       var picture = "<img src='assets/images/trixrabbit.jpg'>"
       document.querySelector("#picture").innerHTML = picture;
       toUnderscore();
     }
-    else if (selectedWord == "toucan") {
+    else if (selectedWord == "toucan_sam") {
       var picture = "<img src='assets/images/toucansam.jpg'>"
       document.querySelector("#picture").innerHTML = picture;
       toUnderscore();
     }
-    else if (selectedWord == "chocula") {
+    else if (selectedWord == "count_chocula") {
       var picture = "<img src='assets/images/countchocula.jpeg'>"
       document.querySelector("#picture").innerHTML = picture;
       toUnderscore();
     }
-    else if (selectedWord == "crunch") {
+    else if (selectedWord == "captain_crunch") {
       var picture = "<img src='assets/images/capncrunch.jpg'>"
       document.querySelector("#picture").innerHTML = picture;
       toUnderscore();
     }
+    else if (selectedWord == "lucky_charms") {
+      var picture = "<img src='assets/images/lucky.jpg'>"
+      document.querySelector("#picture").innerHTML = picture;
+      toUnderscore();
+    }
 
-    else if (selectedWord == "booberry") {
+    else if (selectedWord == "boo_berry") {
       var picture = "<img src='assets/images/booberry.png'>"
+      document.querySelector("#picture").innerHTML = picture;
+      toUnderscore();
+    }
+
+    else if (selectedWord == "buzz_the_honey_bee") {
+      var picture = "<img src='assets/images/buzz.jpg'>"
       document.querySelector("#picture").innerHTML = picture;
       toUnderscore();
     }
