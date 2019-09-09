@@ -1,9 +1,9 @@
 # Word-Guess-Game 🦜
-<a href="https://amandadovel.github.io/Word-Guess-Game/" target="blank">Link to Game</a>
+<a href="https://amandadovel.github.io/Word-Guess-Game/" target="_blank">Link to Game</a>
 
 This is a simple hangman game using 90's cereal mascots as a theme. 
 
-<img src="assets/images/booScreenShot" alt="booberry">
+<img src="/assets/images/booScreenShot" alt="booberry">
 
 ## Functionality 💪
 #### Here's how the app works: 🛒
