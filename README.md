@@ -3,7 +3,7 @@
 
 This is a simple hangman game using 90's cereal mascots as a theme. 
 
-<img src="/assets/images/booScreenShot" alt="booberry">
+<img src="/assets/images/booScreenShot.png" alt="booberry">
 
 ## Functionality 💪
 #### Here's how the app works: 🛒
