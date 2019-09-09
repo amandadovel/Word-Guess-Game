@@ -6,7 +6,7 @@ This is a simple hangman game using 90's cereal mascots as a theme.
 <img src="/assets/images/booScreenShot.png" alt="booberry">
 
 ## Functionality 💪
-#### Here's how the app works: 🛒
+#### Here's how the app works: 
 
 1. User has 10 guesses to fill in the blanks of the chosen word. There are about 6 words that will be selected at random. 
 
