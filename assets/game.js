@@ -55,10 +55,10 @@ function toUnderscore(){
   }
 
     for (var i = 0; i < selectedWord; i++) {
-      if (selectedWord[i] === " ") {
+      if (selectedWord[i] === "_") {
         wordToUnderscore.push(" ");
       } else {
-        wordToUnderscore.push("_");
+        wordToUnderscore.push(" ");
       }
     } 
 
@@ -183,7 +183,6 @@ function handleWin() {
   document.getElementById("wins-text").textContent = wins;
   document.getElementById("alert-message").textContent = "You Win!";
   gameReset();
-  
   
   document.getElementById("hangmanimage").style.display="none";
 
